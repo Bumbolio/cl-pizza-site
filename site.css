@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin:0 auto;
+    padding: 1.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dark-section {
+    color: white;
+    background-color: tomato;
+}
+
+.img-responsive {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bg-pizza {
+    background: url("img/louies-bg-making-red.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.text-highlight {
+    color: #851B21;
+}
+
+@media screen and (min-width: 800px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+}
